@@ -1,0 +1,222 @@
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+p {
+    margin:auto
+}
+.nav-items {
+    display: flex;    
+}
+.navbar-brand {
+    font-size:x-large;
+}
+.title {
+    min-width:150px;
+}
+.author-button {
+    width: 130px;
+}
+.add-book-button {
+    width: 100px;
+    margin-right: 10px;
+}
+.login-text {
+    font-size: medium;
+}
+.homeBackground {
+    background-image: url('./images/library_7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.home-span {
+    font-size: 50px;
+}
+.site-icon {
+    font-size: 42px;
+    margin-left: 20px;
+}
+
+.homeBackground p {
+    color: white;
+    font-size: x-large;
+}
+.input-group {
+    display:flex;
+    flex-wrap: nowrap;
+}
+.input-group .multiselect .optionContainer {
+    max-height: 100px;
+}
+.navbar-item {
+    font-size: large
+}
+#pageTitle {
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 25px;    
+}
+.search-bar {    
+    width:45%
+}
+#searchLabel {
+    background-color: #D3D3D3;
+}
+.authorData {
+    min-width:150px;
+    max-width:150px;
+    height: 150px;
+}
+.biography {
+    min-width:150px;
+    max-width:500px;
+    height: 150px;
+    text-wrap: wrap;
+}
+.actionButtons {
+    margin:2px;
+}
+.editIcon{
+    font-size: large;
+}
+.trashIcon{
+    font-size: large;
+    pointer-events: none;
+}
+.book-wrapper, .music-wrapper {
+    display:flex;
+    justify-content: start;
+    align-content: center;
+    margin: 3px;
+    padding-bottom: 20px;
+}
+.container {
+    margin-top: 100px;
+}
+.book-wrapper img {
+    width:130px;
+    height:180px;
+    margin-top:15px;
+}
+.errorModal {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    font-weight: bold;    
+}
+.music-wrapper img {
+    width:170px;
+    height:170px;
+    margin-top:15px;
+}
+.book-wrapper h2, .music-wrapper h2{
+    align-self:center;
+    margin-left:15px;
+}
+.bookModal, .musicModal{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-left:25px;
+    font-size: large;
+}
+.bookModal p, .musicModal p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.bookModal span, .musicModal span {
+    font-weight: lighter;
+}
+.musicImg {
+    height: 180px;
+    width: 180px;
+    margin-top: 15px
+}
+.user-heading, .author-heading {
+    color: black;
+    font-weight: lighter;
+}
+
+.bookHolds h5, .movieHolds h5, .musicHolds h5{
+    text-decoration: underline;
+}
+.holdItems {
+    font-weight:400;
+    font-size: large;
+}
+.toggleInput {
+    width:200px;    
+}
+.trackCount {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+#trackCountInput {
+    width: 60px;
+}
+.addTrack, .toggleButton {
+    width: 70px;
+}
+.toggleButton {
+    padding-top: 8px;
+}
+.artistSelect {
+    z-index: 3;
+}
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px; 
+}
+.active, .collapsible:hover {
+    background-color: #555;
+  }  
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+.billingSpan {
+    pointer-events: none;
+    display:flex;
+    align-items: center;
+    height: 50px;
+    margin-right: 55px;
+}
+.billingSpan label {
+    font-weight: bold;
+}
+.billingInput {
+    display:flex;
+    margin-left: 10px;
+}
+.billingButton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.billing-card {
+    display:flex;
+    width:100%;
+    pointer-events:none;
+}
+.billing-card-user {
+    display:flex;
+}
+.billing-card-balance {
+    display:flex;
+}
